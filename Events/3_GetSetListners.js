@@ -35,7 +35,7 @@ for(var i = 0; i < 3; i++){
 }
 
 // Emitting myEvent1 and myEvent2
-gsEmitter1.emit('myEvent1', 'Event1 occurred');
-gsEmitter2.emit('myEvent2', 'Event2 occurred');
+//gsEmitter1.emit('myEvent1', 'Event1 occurred');
+//gsEmitter2.emit('myEvent2', 'Event2 occurred');
 
-module.exports.gsEmits = [gsEmitter1,gsEmitter2];
+module.exports.gsEmits = {gsEmitter1,gsEmitter2};
