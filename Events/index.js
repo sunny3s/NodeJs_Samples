@@ -2,7 +2,6 @@
 // Triggering myEvent
 //EventEmit.emit('MyEvent','My First Event');
 
-
 //var rmvEventEmit = require('./2_RemoveListener');
 
 /*
